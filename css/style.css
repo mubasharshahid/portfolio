@@ -374,9 +374,7 @@ ul {
     width: 100%;
     height: 100%;
     background: rgba(37, 99, 235, 0.9);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     opacity: 0;
     transition: var(--transition);
 }
@@ -941,7 +939,8 @@ ul {
     .container {
         max-width: 1200px;
     }
-    .hero-section{
+
+    .hero-section {
         min-height: 80vh;
     }
 }
